@@ -23,3 +23,14 @@ console.log(a);
 
 a *= 2;
 console.log(a);
+
+//Logical Operators
+let age = 17;
+let hasTicket = true;
+let isBanned = false;
+
+if ((age >= 18 || hasTicket) && !isBanned) {
+  console.log("Entry allowed");
+} else {
+  console.log("Entry denied");
+}
